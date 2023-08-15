@@ -3,11 +3,36 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
+  <main>
     <div class="wrapper">
-      <HelloWorld />
+      <!-- <HelloWorld /> -->
+      <div class="counter">0</div>
+      <div class="overlay">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </div>
-  </header>
+
+    <div class="container">
+      <nav>
+        <div>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+        <div>
+          <a href="#"></a>
+        </div>
+      </nav>
+    </div>
+  </main>
 </template>
 
 <style scoped>
@@ -21,7 +46,7 @@ header {
 }
 
 @media (min-width: 1024px) {
-  header {
+  main {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
@@ -31,7 +56,7 @@ header {
     margin: 0 2rem 0 0;
   }
 
-  header .wrapper {
+  main .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
