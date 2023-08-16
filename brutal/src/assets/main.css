@@ -42,7 +42,8 @@ nav div {
 a,
 .green {
   text-decoration: none;
-  color: #1a1a1a;;
+  color: #1a1a1a;
+  font-family: 'LT Binary Neue', sans-serif;
   /* background-color: black; */
   transition: 0.4s;
 }
