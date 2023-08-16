@@ -61,7 +61,6 @@ onMounted(() => {
 
 <template>
   <main>
-    <!-- <HelloWorld /> -->
     <div class="wrapper">
       <nav>
         <div>
