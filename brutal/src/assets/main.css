@@ -1,10 +1,8 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
   height: 100vh;
   margin: 0 auto;
-  /* padding: 2rem; */
   font-weight: normal;
 }
 
@@ -13,8 +11,8 @@ main {
 }
 
 nav {
-  /* position: fixed; */
-  /* top: 0; */
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -34,9 +32,17 @@ nav div {
   padding: 2em;
 }
 
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #1a1a1a;;
+  /* background-color: black; */
   transition: 0.4s;
 }
